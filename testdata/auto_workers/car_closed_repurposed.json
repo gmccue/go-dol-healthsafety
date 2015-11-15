@@ -1,0 +1,72 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/AutoWorkers/CAR_ClosedRepurposed(1L)",
+        "type": "CarClosedRepurposedModel.CAR_ClosedRepurposed"
+      },
+      "id": "1",
+      "Number_ID": "1",
+      "Last_Automaker_Owner": "Avanti Motors",
+      "Automaker_Plant_Name": "Avanti South Bend Assembly",
+      "City": "South Bend",
+      "State": "IN",
+      "Plant_Product_Category": "Assembly",
+      "Year_Closed_Scheduled_To_Close": "1987",
+      "Current_Conditions": "Closed",
+      "Automotive_Other": null,
+      "Industrial_Automotive_MFG": null,
+      "Commercial": null,
+      "Industrial": null,
+      "Logistics_And_Warehousing": null,
+      "Education": null,
+      "Research_and_Development": null,
+      "Recreational": null,
+      "Government": null,
+      "Residential": null,
+      "Vacant": "Yes",
+      "Demolished": null,
+      "Specific_Reuse_Notes": null,
+      "Federal_Incentives_Provided": null,
+      "State_Incentives_Provided": null,
+      "Local_Incentives_Provided": null,
+      "Local_or_Regional_Foundation_Assistance": null,
+      "SuccessInPropertyValueRestoration5VS1NS": null,
+      "SuccessInRestoringJobBase5VS1NS": null
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/AutoWorkers/CAR_ClosedRepurposed(2L)",
+        "type": "CarClosedRepurposedModel.CAR_ClosedRepurposed"
+      },
+      "id": "2",
+      "Number_ID": "2",
+      "Last_Automaker_Owner": "Avanti Motors",
+      "Automaker_Plant_Name": "New Avanti Motor Corporation Youngstown Assembly",
+      "City": "Youngstown",
+      "State": "OH",
+      "Plant_Product_Category": "Assembly",
+      "Year_Closed_Scheduled_To_Close": "1991",
+      "Current_Conditions": "Closed",
+      "Automotive_Other": null,
+      "Industrial_Automotive_MFG": null,
+      "Commercial": null,
+      "Industrial": null,
+      "Logistics_And_Warehousing": null,
+      "Education": null,
+      "Research_and_Development": null,
+      "Recreational": null,
+      "Government": null,
+      "Residential": null,
+      "Vacant": "Yes",
+      "Demolished": null,
+      "Specific_Reuse_Notes": null,
+      "Federal_Incentives_Provided": null,
+      "State_Incentives_Provided": null,
+      "Local_Incentives_Provided": null,
+      "Local_or_Regional_Foundation_Assistance": null,
+      "SuccessInPropertyValueRestoration5VS1NS": null,
+      "SuccessInRestoringJobBase5VS1NS": null
+    }
+  ]
+}

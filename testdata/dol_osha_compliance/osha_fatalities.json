@@ -1,0 +1,24 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/Fatalities/OSHA_Fatalities(1L)",
+        "type": "FatalitiesModel.OSHA_Fatalities"
+      },
+      "id": "1",
+      "dateofincident": "\/Date(988848000000)\/",
+      "companyandlocation": "showpay LLC, Orlando, FL 32821",
+      "description": "Worker was struck by a stack of industrial lighting that was being raised on a forklift."
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/Fatalities/OSHA_Fatalities(2L)",
+        "type": "FatalitiesModel.OSHA_Fatalities"
+      },
+      "id": "2",
+      "dateofincident": "\/Date(989712000000)\/",
+      "companyandlocation": "AEG Live Productions, LLC Kansas City, MO 64108",
+      "description": "Worker putting together a concert stage died when he fell from a 40-foot overhead truss."
+    }
+  ]
+}

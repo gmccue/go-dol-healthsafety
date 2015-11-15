@@ -1,0 +1,58 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Mining/BasicMineInfo/MSHA_addressOfRecord(1L)",
+        "type": "BasicMineInfoModel.MSHA_addressOfRecord"
+      },
+      "id": "1",
+      "mineId": "100003",
+      "mineName": "O'Neal Quarry & Mill",
+      "contactTitle": "Plant Manager",
+      "nearestTown": "Calera",
+      "businessName": "Chemical Lime Company Of Alabama LLC",
+      "street": "2885 Hwy 31 South",
+      "poBox": null,
+      "city": "Calera",
+      "stateAbbr": "AL",
+      "fipsStateCode": 1,
+      "state": "Alabama",
+      "zipCode": 35040,
+      "country": "USA",
+      "province": null,
+      "postalCode": null,
+      "mineTypeCode": "Surface",
+      "mineStatus": "Active",
+      "mineStatusDate": "\/Date(285811200000)\/",
+      "primarySicCode": "Lime",
+      "coalMetalInd": "M"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Mining/BasicMineInfo/MSHA_addressOfRecord(2L)",
+        "type": "BasicMineInfoModel.MSHA_addressOfRecord"
+      },
+      "id": "2",
+      "mineId": "100004",
+      "mineName": "Brierfield Quarry",
+      "contactTitle": "Plant Manager",
+      "nearestTown": "Brierfield",
+      "businessName": "Chemical Lime Company Of Alabama LLC",
+      "street": "7444 Hwy 25",
+      "poBox": null,
+      "city": "Calera",
+      "stateAbbr": "AL",
+      "fipsStateCode": 1,
+      "state": "Alabama",
+      "zipCode": 35040,
+      "country": "USA",
+      "province": null,
+      "postalCode": null,
+      "mineTypeCode": "Surface",
+      "mineStatus": "Active",
+      "mineStatusDate": "\/Date(1046736000000)\/",
+      "primarySicCode": "Crushed, Broken Limestone NEC",
+      "coalMetalInd": "M"
+    }
+  ]
+}

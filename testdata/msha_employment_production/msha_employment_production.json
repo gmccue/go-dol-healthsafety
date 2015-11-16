@@ -1,0 +1,40 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Employment/MSHA_employmentProduction(1L)",
+        "type": "EmploymentProductionModel.MSHA_employmentProduction"
+      },
+      "id": "1",
+      "mineId": "2900418",
+      "mineName": "Shakespeare Pit",
+      "state": "NM",
+      "subUnitCode": 99,
+      "subUnit": "OFFICE WORKERS AT MINE SITE",
+      "calendarYear": 2011,
+      "annualHours": 1146,
+      "annualCostProduction": null,
+      "averageEmployeeCount": 1,
+      "averageEmployeeHours": 1146,
+      "coalMetalInd": "M"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Employment/MSHA_employmentProduction(2L)",
+        "type": "EmploymentProductionModel.MSHA_employmentProduction"
+      },
+      "id": "2",
+      "mineId": "4500844",
+      "mineName": "Pacific Quarry",
+      "state": "WA",
+      "subUnitCode": 99,
+      "subUnit": "OFFICE WORKERS AT MINE SITE",
+      "calendarYear": 2011,
+      "annualHours": 1433,
+      "annualCostProduction": null,
+      "averageEmployeeCount": 2,
+      "averageEmployeeHours": 717,
+      "coalMetalInd": "M"
+    }
+  ]
+}

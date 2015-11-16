@@ -1,7 +1,7 @@
 # go-dol-healthsafety
 
-[![Build Status](https://api.travis-ci.org/gmccue/go-ilab-childlabor.png?branch=master)](https://travis-ci.org/gmccue/go-ilab-childlabor)
-[![GoDoc](https://godoc.org/github.com/gmccue/go-ilab-childlabor?status.svg)](https://godoc.org/github.com/gmccue/go-ilab-childlabor)
+[![Build Status](https://api.travis-ci.org/gmccue/go-dol-healthsafety.png?branch=master)](https://travis-ci.org/gmccue/go-dol-healthsafety)
+[![GoDoc](https://godoc.org/github.com/gmccue/go-dol-healthsafety?status.svg)](https://godoc.org/github.com/gmccue/go-dol-healthsafety)
 
 go-dol-healthsafety provides programmatic access to the [United States Department of Labor Health & Safety datasets API](http://developer.dol.gov/health-and-safety).
 
@@ -78,5 +78,35 @@ func OSHAFatalities() {
     }
 
     log.Printf("%v", of)
+}
+```
+
+### Full Mine Information
+These queries provide access to the the [Full Mine Information API endpoint](http://developer.dol.gov/health-and-safety/full-mine-info-mines/).
+
+#### MSHA Mines
+```go
+func FullMineInfo() {
+    fm, err := api.QueryFullMineInfo()
+    if err != nil {
+        log.Println(err)
+    }
+
+    log.Printf("%v", fm)
+}
+```
+
+### MSHA Employment Production
+These queries provide access to the [DOL OSHA Compliance API endpoint](http://developer.dol.gov/health-and-safety/msha-employment-production/).
+
+#### MSHA Employment Production
+```go
+func MSHAEmploymentProduction() {
+    ep, err := api.QueryMSHAEmploymentProduction()
+    if err != nil {
+        log.Println(err)
+    }
+
+    log.Printf("%v", ep)
 }
 ```

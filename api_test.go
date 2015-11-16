@@ -55,6 +55,27 @@ func TestBuildPath(t *testing.T) {
 	}
 }
 
+func TestUnmarshalOSHABool(t *testing.T) {
+	boolJSON := `
+	{
+		"TestBool": "N"
+	}
+	`
+
+	OSHABoolInstance := struct {
+		TestBool OSHABool
+	}{}
+
+	err := json.Unmarshal([]byte(boolJSON), &OSHABoolInstance)
+	if err != nil {
+		t.Error("Error unmarshaling OSHABool. Error was:", err)
+	}
+
+	if OSHABoolInstance.TestBool != false {
+		t.Error("Invalid boolean value returned. Should have been false.")
+	}
+}
+
 func TestUnmarshalOSHADate(t *testing.T) {
 	dateJSON := `
 	{

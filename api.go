@@ -137,6 +137,16 @@ func unmarshalErrorResponse(data []byte) error {
 	return nil
 }
 
+// An implementation of the UnmarshalJSONinterface for boolean strings.
+func (ob *OSHABool) UnmarshalJSON(b []byte) error {
+	boolStr := string(b[1 : len(b)-1])
+	boolVal := boolStr == "Y" || boolStr == "Yes"
+
+	*ob = OSHABool(boolVal)
+
+	return nil
+}
+
 // An implementation of the UnmarhsalJSON interface for unix time stamps.
 func (od *OSHADate) UnmarshalJSON(b []byte) error {
 	timeStr := string(b[8 : len(b)-7])

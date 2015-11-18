@@ -1,0 +1,36 @@
+{
+    "d" : [
+        {
+            "__metadata": {
+                "uri": "http://api.dol.gov/V1/Safety/GulfOilSpill/OSHA_Direct_Read_Sampling(1L)", "type": "GulfOilSpillModel.OSHA_Direct_Read_Sampling"
+            },
+            "id": "1",
+            "ESTAB_STATE": null,
+            "ESTAB_SITE_NAME": null,
+            "ESTAB_SITE_NAME_OTHER": null,
+            "SAMP_DATE": "\/Date(1275436800000)\/",
+            "SAMP_NO": 10039,
+            "OCC_CODE": "Boat Operators",
+            "DES_SITU_ENCOUNTERED": "AL 1-15 ppm AL 2-25 ppm",
+            "INSTRU_1": "Drager X-am 2000 4 gas monitor",
+            "SUBSTANCE_AGENT": "CO",
+            "READING": "0-84 ppm"
+        },
+        {
+            "__metadata": {
+                "uri": "http://api.dol.gov/V1/Safety/GulfOilSpill/OSHA_Direct_Read_Sampling(2L)", "type": "GulfOilSpillModel.OSHA_Direct_Read_Sampling"
+            },
+            "id": "2",
+            "ESTAB_STATE": null,
+            "ESTAB_SITE_NAME": null,
+            "ESTAB_SITE_NAME_OTHER": "Eastside Ship - Island",
+            "SAMP_DATE": "\/Date(1275868800000)\/",
+            "SAMP_NO": 56901,
+            "OCC_CODE": "Laborers (Other)",
+            "DES_SITU_ENCOUNTERED": "Crew of boats delivers material",
+            "INSTRU_1": "Drager",
+            "SUBSTANCE_AGENT": "Toluene",
+            "READING": "ND"
+        }
+    ]
+}

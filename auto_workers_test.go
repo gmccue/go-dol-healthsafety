@@ -5,12 +5,12 @@ import "testing"
 func TestUnmarshalAutoWorkers(t *testing.T) {
 	mock, err := loadMock("./testdata/auto_workers/car_closed_repurposed.json")
 	if err != nil {
-		t.Error("Error loading AutoWorkers mock data. Error was: ", err)
+		t.Error("Error loading AutoWorkers mock data. Error was:", err)
 	}
 
 	a, err := unmarshalCarClosed(mock)
 	if err != nil {
-		t.Error("Error unmarshaling AutoWorkers. Error was: ", err)
+		t.Error("Error unmarshaling AutoWorkers. Error was:", err)
 	}
 
 	if len(a.Data) != 2 {

@@ -1,0 +1,48 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/GulfOilSpill/OSHA_NOISE_REPORT(1L)",
+        "type": "GulfOilSpillModel.OSHA_NOISE_REPORT"
+      },
+      "id": "1",
+      "ESTABLISHMENT_STATE": null,
+      "ESTABLISHMENT_NAME": "Open Waters of Gulf Coast",
+      "SAMPLING_DATE": "\/Date(1276732800000)\/",
+      "SAMPLING_NO": 56112,
+      "EMPLOYEE_OCCUPATION": "",
+      "EMPLOYEE_OCCUPATION_SPECIFY": null,
+      "DES_SITU_ENCOUNTERED": "A sound level reading was taken at the entry way leading either down to engine room or into cabin of a task force 5 boat called \"Princess Jasmine II\"",
+      "SAMPLE_TYPE": "Area",
+      "TOTAL_TIME": "\/Date(-2209161420000)\/",
+      "EXPOSURE_LEVEL": 88,
+      "PEL": "90.6dB",
+      "OSHA_HC_LAVG": null,
+      "OSHA_HC_TWA": null,
+      "OSHA_PEL_LAVG": null,
+      "OSHA_PEL_TWA": null
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/GulfOilSpill/OSHA_NOISE_REPORT(2L)",
+        "type": "GulfOilSpillModel.OSHA_NOISE_REPORT"
+      },
+      "id": "2",
+      "ESTABLISHMENT_STATE": null,
+      "ESTABLISHMENT_NAME": "\"Miss Ginger\"",
+      "SAMPLING_DATE": "\/Date(1276819200000)\/",
+      "SAMPLING_NO": 39307,
+      "EMPLOYEE_OCCUPATION": "Hazardous Materials Removal Workers",
+      "EMPLOYEE_OCCUPATION_SPECIFY": null,
+      "DES_SITU_ENCOUNTERED": "The hazwoper person wore Tyvek suit, rubber gloves, and rubber overboots w/ steel toe boots and PFD",
+      "SAMPLE_TYPE": "Personal",
+      "TOTAL_TIME": null,
+      "EXPOSURE_LEVEL": 78,
+      "PEL": null,
+      "OSHA_HC_LAVG": null,
+      "OSHA_HC_TWA": null,
+      "OSHA_PEL_LAVG": null,
+      "OSHA_PEL_TWA": null
+    }
+  ]
+}

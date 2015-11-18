@@ -96,6 +96,27 @@ func FullMineInfo() {
 }
 ```
 
+### Gulf Oil Spill
+These queries provide access to the the [Gulf Oil Spill API endpoint](http://developer.dol.gov/health-and-safety/gulf-oil-spill/).
+
+#### OSHA Direct Read Sampling
+```go
+dr, err := QueryOSHADirectReadSampling()
+```
+
+#### Noise Report
+```go
+on, err := QueryOSHANoisReport()
+```
+
+### Mine Accident Injuries
+These queries provide access to the the [Mine Accident Injuries API endpoint](http://developer.dol.gov/health-and-safety/mine-accident-injuries/).
+
+#### Mine Accident, Injury and Illness Report
+```go
+ma, err := QueryMineAccidents()
+```
+
 ### MSHA Employment Production
 These queries provide access to the [DOL OSHA Compliance API endpoint](http://developer.dol.gov/health-and-safety/msha-employment-production/).
 

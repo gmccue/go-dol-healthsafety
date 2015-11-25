@@ -163,6 +163,14 @@ func (od *OSHADate) UnmarshalJSON(b []byte) error {
 }
 
 func (oi *OSHAInt) UnmarshalJSON(b []byte) error {
+	// In order to prevent unmarshaling errors, If the field has a value of
+	// "null", return 0.
+	if string(b) == "null" {
+		*oi = OSHAInt(0)
+
+		return nil
+	}
+
 	istr := string(b[1 : len(b)-1])
 
 	i, err := strconv.Atoi(istr)

@@ -41,14 +41,7 @@ These queries provide access to the [Auto Workers API endpoint](http://developer
 
 #### Car Closed Repurposed
 ```go
-func CarClosedRepurposed() {
-    ccr, err := api.QueryCarClosedRepurposed()
-    if err != nil {
-        log.Println(err)
-    }
-
-    log.Printf("%v", ccr)
-}
+ccr, err := api.QueryCarClosedRepurposed()
 ```
 
 ### Basic Mine Information
@@ -56,14 +49,7 @@ These queries provide access to the [Basic Mine Information API endpoint](http:/
 
 #### Address of record
 ```go
-func AddressOfRecord() {
-    aor, err := api.QueryAddressOfRecord()
-    if err != nil {
-        log.Println(err)
-    }
-
-    log.Printf("%v", aor)
-}
+aor, err := api.QueryAddressOfRecord()
 ```
 
 ### DOL OSHA Compliance
@@ -71,14 +57,7 @@ These queries provide access to the [DOL OSHA Compliance API endpoint](http://de
 
 #### OSHA Fatalities
 ```go
-func OSHAFatalities() {
-    of, err := api.QueryOSHAFatalities()
-    if err != nil {
-        log.Println(err)
-    }
-
-    log.Printf("%v", of)
-}
+of, err := api.QueryOSHAFatalities()
 ```
 
 ### Full Mine Information
@@ -86,14 +65,7 @@ These queries provide access to the the [Full Mine Information API endpoint](htt
 
 #### MSHA Mines
 ```go
-func FullMineInfo() {
-    fm, err := api.QueryFullMineInfo()
-    if err != nil {
-        log.Println(err)
-    }
-
-    log.Printf("%v", fm)
-}
+fm, err := api.QueryFullMineInfo()
 ```
 
 ### Gulf Oil Spill
@@ -106,7 +78,7 @@ dr, err := QueryOSHADirectReadSampling()
 
 #### Noise Report
 ```go
-on, err := QueryOSHANoisReport()
+on, err := QueryOSHANoiseReport()
 ```
 
 ### Mine Accident Injuries
@@ -122,12 +94,21 @@ These queries provide access to the [DOL OSHA Compliance API endpoint](http://de
 
 #### MSHA Employment Production
 ```go
-func MSHAEmploymentProduction() {
-    ep, err := api.QueryMSHAEmploymentProduction()
-    if err != nil {
-        log.Println(err)
-    }
+ep, err := api.QueryMSHAEmploymentProduction()
+```
 
-    log.Printf("%v", ep)
-}
+### Mine Inspections
+These queries provide access to the [Mine Inspections API endpoint](http://developer.dol.gov/health-and-safety/mine-inspections/).
+
+#### Mine Inspections
+```go
+ep, err := api.QueryMineInspections()
+```
+
+### Mine Violation
+These queries provide access to the [Mine Violation API endpoint](http://developer.dol.gov/health-and-safety/mine-violation/).
+
+#### Mine Violation
+```go
+mv, err := api.QueryMineViolations()
 ```

@@ -1,0 +1,44 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_SERIES('FIU00X00000080M70')",
+        "type": "FatalOccupationalInjuriesModel.FI_SERIES"
+      },
+      "SERIES_ID": "FIU00X00000080M70",
+      "CATEGORY_CODE": "00X",
+      "DATATYPE_CODE": "8",
+      "CASE_CODE": "0",
+      "INDUSTRY_CODE": "000000",
+      "EVENT_CODE": null,
+      "SOURCE_CODE": null,
+      "OCCUPATION_CODE": null,
+      "AREA_CODE": "M70",
+      "FOOTNOTE_CODES": null,
+      "BEGIN_YEAR": "2003",
+      "BEGIN_PERIOD": "A01",
+      "END_YEAR": "2010",
+      "END_PERIOD": "A01"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_SERIES('FIU00X00000080M72')",
+        "type": "FatalOccupationalInjuriesModel.FI_SERIES"
+      },
+      "SERIES_ID": "FIU00X00000080M72",
+      "CATEGORY_CODE": "00X",
+      "DATATYPE_CODE": "8",
+      "CASE_CODE": "0",
+      "INDUSTRY_CODE": "000000",
+      "EVENT_CODE": null,
+      "SOURCE_CODE": null,
+      "OCCUPATION_CODE": null,
+      "AREA_CODE": "M72",
+      "FOOTNOTE_CODES": null,
+      "BEGIN_YEAR": "2003",
+      "BEGIN_PERIOD": "A01",
+      "END_YEAR": "2010",
+      "END_PERIOD": "A01"
+    }
+  ]
+}

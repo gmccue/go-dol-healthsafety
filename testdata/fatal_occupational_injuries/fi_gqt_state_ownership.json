@@ -1,0 +1,26 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_GQT_STATE_OWNERSHIP(OWNERSHIP_CODE='0',STATE_CODE='M70',YEAR='2003')",
+        "type": "FatalOccupationalInjuriesModel.FI_GQT_STATE_OWNERSHIP"
+      },
+      "YEAR": "2003",
+      "OWNERSHIP_CODE": "0",
+      "STATE_CODE": "M70",
+      "STATE_NAME": "Atlanta-Sandy Springs-Marietta, GA",
+      "SORT_SEQUENCE": "00070"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_GQT_STATE_OWNERSHIP(OWNERSHIP_CODE='0',STATE_CODE='M70',YEAR='2004')",
+        "type": "FatalOccupationalInjuriesModel.FI_GQT_STATE_OWNERSHIP"
+      },
+      "YEAR": "2004",
+      "OWNERSHIP_CODE": "0",
+      "STATE_CODE": "M70",
+      "STATE_NAME": "Atlanta-Sandy Springs-Marietta, GA",
+      "SORT_SEQUENCE": "00070"
+    }
+  ]
+}

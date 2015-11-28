@@ -1,0 +1,22 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_GQT_OWNERSHIP('0')",
+        "type": "FatalOccupationalInjuriesModel.FI_GQT_OWNERSHIP"
+      },
+      "OWNERSHIP_CODE": "0",
+      "OWNERSHIP_NAME": "All ownerships",
+      "SORT_SEQUENCE": "00001"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_GQT_OWNERSHIP('1')",
+        "type": "FatalOccupationalInjuriesModel.FI_GQT_OWNERSHIP"
+      },
+      "OWNERSHIP_CODE": "1",
+      "OWNERSHIP_NAME": "Private industry",
+      "SORT_SEQUENCE": "00002"
+    }
+  ]
+}

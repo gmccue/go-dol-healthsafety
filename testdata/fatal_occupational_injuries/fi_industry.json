@@ -1,0 +1,26 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_INDUSTRY('000000')",
+        "type": "FatalOccupationalInjuriesModel.FI_INDUSTRY"
+      },
+      "INDUSTRY_CODE": "000000",
+      "INDUSTRY_TEXT": "All workers",
+      "DISPLAY_LEVEL": "0",
+      "SELECTABLE": "T",
+      "SORT_SEQUENCE": "1"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_INDUSTRY('11111X')",
+        "type": "FatalOccupationalInjuriesModel.FI_INDUSTRY"
+      },
+      "INDUSTRY_CODE": "11111X",
+      "INDUSTRY_TEXT": "Soybean Farming",
+      "DISPLAY_LEVEL": "6",
+      "SELECTABLE": "T",
+      "SORT_SEQUENCE": "7"
+    }
+  ]
+}

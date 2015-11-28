@@ -1,0 +1,24 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_GQT_CHAR_OWNERSHIP(GQT_CASE_CODE='0',OWNERSHIP_CODE='0',PRIVATE_CODE='0',UNIQUE_CODE='0')",
+        "type": "FatalOccupationalInjuriesModel.FI_GQT_CHAR_OWNERSHIP"
+      },
+      "GQT_CASE_CODE": "0",
+      "OWNERSHIP_CODE": "0",
+      "UNIQUE_CODE": "0",
+      "PRIVATE_CODE": "0"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_GQT_CHAR_OWNERSHIP(GQT_CASE_CODE='0',OWNERSHIP_CODE='1',PRIVATE_CODE='1',UNIQUE_CODE='1')",
+        "type": "FatalOccupationalInjuriesModel.FI_GQT_CHAR_OWNERSHIP"
+      },
+      "GQT_CASE_CODE": "0",
+      "OWNERSHIP_CODE": "1",
+      "UNIQUE_CODE": "1",
+      "PRIVATE_CODE": "1"
+    }
+  ]
+}

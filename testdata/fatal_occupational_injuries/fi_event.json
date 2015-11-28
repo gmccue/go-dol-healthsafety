@@ -1,0 +1,26 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_EVENT('0000XX')",
+        "type": "FatalOccupationalInjuriesModel.FI_EVENT"
+      },
+      "EVENT_CODE": "0000XX",
+      "EVENT_TEXT": "All events and exposures",
+      "DISPLAY_LEVEL": "0",
+      "SELECTABLE": "T",
+      "SORT_SEQUENCE": "1"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_EVENT('00XXXX')",
+        "type": "FatalOccupationalInjuriesModel.FI_EVENT"
+      },
+      "EVENT_CODE": "00XXXX",
+      "EVENT_TEXT": "Contact with objects and equipment, unspecified",
+      "DISPLAY_LEVEL": "2",
+      "SELECTABLE": "T",
+      "SORT_SEQUENCE": "3"
+    }
+  ]
+}

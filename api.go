@@ -53,7 +53,9 @@ type OSHAInt int
 func New(secretKey string) *API {
 	return &API{
 		SecretKey: secretKey,
-		Filters:   map[string]string{},
+		Filters: map[string]string{
+			"top": "100",
+		},
 		endpoint: url.URL{
 			Scheme: apiScheme,
 			Host:   apiHost,

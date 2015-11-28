@@ -1,0 +1,20 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_CATEGORY2('00X')",
+        "type": "FatalOccupationalInjuriesModel.FI_CATEGORY2"
+      },
+      "CATEGORY_CODE": "00X",
+      "CATEGORY_TEXT": "Ownership-- All"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_CATEGORY2('05X')",
+        "type": "FatalOccupationalInjuriesModel.FI_CATEGORY2"
+      },
+      "CATEGORY_CODE": "05X",
+      "CATEGORY_TEXT": "Ownership-- All government"
+    }
+  ]
+}

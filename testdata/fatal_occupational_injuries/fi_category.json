@@ -1,0 +1,22 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_CATEGORY('0')",
+        "type": "FatalOccupationalInjuriesModel.FI_CATEGORY"
+      },
+      "CASE_CODE": "0",
+      "CATEGORY_CODE": "00X",
+      "CATEGORY_TEXT": "Ownership-- All"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_CATEGORY('0')",
+        "type": "FatalOccupationalInjuriesModel.FI_CATEGORY"
+      },
+      "CASE_CODE": "0",
+      "CATEGORY_CODE": "AAX",
+      "CATEGORY_TEXT": "Age group-- 15 & under"
+    }
+  ]
+}

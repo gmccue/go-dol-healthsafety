@@ -1,0 +1,26 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_AREA('M70')",
+        "type": "FatalOccupationalInjuriesModel.FI_AREA"
+      },
+      "AREA_CODE": "M70",
+      "AREA_TEXT": "Atlanta-Sandy Springs-Marietta, GA",
+      "DISPLAY_LEVEL": "0",
+      "SELECTABLE": "T",
+      "SORT_SEQUENCE": "55"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_AREA('M72')",
+        "type": "FatalOccupationalInjuriesModel.FI_AREA"
+      },
+      "AREA_CODE": "M72",
+      "AREA_TEXT": "Boston-Cambridge-Quincy, MA-NH",
+      "DISPLAY_LEVEL": "0",
+      "SELECTABLE": "T",
+      "SORT_SEQUENCE": "56"
+    }
+  ]
+}

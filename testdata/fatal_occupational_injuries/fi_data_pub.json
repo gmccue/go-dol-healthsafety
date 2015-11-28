@@ -1,0 +1,26 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_DATA_PUB(PERIOD='A01',SERIES_ID='FIU00X00000080M70',YEAR='2003')",
+        "type": "FatalOccupationalInjuriesModel.FI_DATA_PUB"
+      },
+      "SERIES_ID": "FIU00X00000080M70",
+      "YEAR": "2003",
+      "PERIOD": "A01",
+      "VALUE": "          89",
+      "FOOTNOTE_CODES": null
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_DATA_PUB(PERIOD='A01',SERIES_ID='FIU00X00000080M70',YEAR='2004')",
+        "type": "FatalOccupationalInjuriesModel.FI_DATA_PUB"
+      },
+      "SERIES_ID": "FIU00X00000080M70",
+      "YEAR": "2004",
+      "PERIOD": "A01",
+      "VALUE": "         100",
+      "FOOTNOTE_CODES": null
+    }
+  ]
+}

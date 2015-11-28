@@ -1,0 +1,22 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_GQT_CHAR(GQT_CASE_CODE='3',GQT_REPORT_ID='4')",
+        "type": "FatalOccupationalInjuriesModel.FI_GQT_CHAR"
+      },
+      "GQT_REPORT_ID": "4",
+      "GQT_CASE_CODE": "3",
+      "GQT_CASE_COMPONENT": "MID"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_GQT_CHAR(GQT_CASE_CODE='E',GQT_REPORT_ID='4')",
+        "type": "FatalOccupationalInjuriesModel.FI_GQT_CHAR"
+      },
+      "GQT_REPORT_ID": "4",
+      "GQT_CASE_CODE": "E",
+      "GQT_CASE_COMPONENT": "EVE"
+    }
+  ]
+}

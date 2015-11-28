@@ -1,0 +1,22 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_GQT_STATE('M70')",
+        "type": "FatalOccupationalInjuriesModel.FI_GQT_STATE"
+      },
+      "STATE_CODE": "M70",
+      "STATE_NAME": "Atlanta-Sandy Springs-Marietta, GA",
+      "SORT_SEQUENCE": "00070"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_GQT_STATE('M72')",
+        "type": "FatalOccupationalInjuriesModel.FI_GQT_STATE"
+      },
+      "STATE_CODE": "M72",
+      "STATE_NAME": "Boston-Cambridge-Quincy, MA-NH",
+      "SORT_SEQUENCE": "00072"
+    }
+  ]
+}

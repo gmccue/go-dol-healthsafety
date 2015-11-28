@@ -1,0 +1,34 @@
+{
+  "d": [
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_GQT_CASE('0')",
+        "type": "FatalOccupationalInjuriesModel.FI_GQT_CASE"
+      },
+      "GQT_CASE_CODE": "0",
+      "GQT_CASE_TEXT": "Industry",
+      "GQT_CASE_COMPONENT": "MID",
+      "GQT_CASE_TABLE_NAME": "fi_industry",
+      "GQT_CASE_COLUMN_NAMES": "industry_code, industry_text",
+      "GQT_CASE_TITLE": "All industries<4><10>",
+      "GQT_ORDER": "sort_sequence",
+      "GQT_DISPLAY": "1",
+      "GQT_CODE_DISPLAY": "0"
+    },
+    {
+      "__metadata": {
+        "uri": "http://api.dol.gov/V1/Safety/FatalOccupationalInjuries/FI_GQT_CASE('E')",
+        "type": "FatalOccupationalInjuriesModel.FI_GQT_CASE"
+      },
+      "GQT_CASE_CODE": "E",
+      "GQT_CASE_TEXT": "Event or exposure",
+      "GQT_CASE_COMPONENT": "EVE",
+      "GQT_CASE_TABLE_NAME": "fi_event",
+      "GQT_CASE_COLUMN_NAMES": "event_code, event_text",
+      "GQT_CASE_TITLE": "All events<8>",
+      "GQT_ORDER": "sort_sequence",
+      "GQT_DISPLAY": "1",
+      "GQT_CODE_DISPLAY": "1"
+    }
+  ]
+}
